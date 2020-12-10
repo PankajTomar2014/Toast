@@ -31,14 +31,21 @@ class Home extends PureComponent {
 
               
 
+//              <Toast
+//                 ref="toast"
+//                 style={{ backgroundColor: 'rgba(82,82,82,0.8)' }}
+//                 fadeInDuration={750}
+//                 fadeOutDuration={1000}
+//                 textStyle={{ color: '#fff' }}
+//             />
+
                 
                     <Toast                 
                         ref="toast"
                         style={{width:400,alignSelf:"center", }}
                         position='bottom'
-                        // positionValue={500}
-                        // fadeInDuration={50}
-                        // fadeOutDuration={50}
+                        fadeInDuration={750}
+                        fadeOutDuration={1000}
                         opacity={0.8}
                         visibilityTime={1000}       // 1 sec
                         textStyle={{color:'#000'}}
